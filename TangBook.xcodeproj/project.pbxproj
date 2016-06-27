@@ -12,6 +12,7 @@
 		B60A5C171D20232800615ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60A5C151D20232800615ECB /* Main.storyboard */; };
 		B60A5C191D20232800615ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60A5C181D20232800615ECB /* Assets.xcassets */; };
 		B60A5C1C1D20232800615ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60A5C1A1D20232800615ECB /* LaunchScreen.storyboard */; };
+		B665DFA41D20DB7800B9E721 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B665DFA31D20DB7800B9E721 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B60A5C181D20232800615ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B60A5C1B1D20232800615ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B60A5C1D1D20232800615ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B665DFA31D20DB7800B9E721 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B60A5C111D20232800615ECB /* AppDelegate.swift */,
 				B60A5C131D20232800615ECB /* ViewController.swift */,
 				B60A5C151D20232800615ECB /* Main.storyboard */,
+				B665DFA31D20DB7800B9E721 /* Storyboard.storyboard */,
 				B60A5C181D20232800615ECB /* Assets.xcassets */,
 				B60A5C1A1D20232800615ECB /* LaunchScreen.storyboard */,
 				B60A5C1D1D20232800615ECB /* Info.plist */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B60A5C1C1D20232800615ECB /* LaunchScreen.storyboard in Resources */,
+				B665DFA41D20DB7800B9E721 /* Storyboard.storyboard in Resources */,
 				B60A5C191D20232800615ECB /* Assets.xcassets in Resources */,
 				B60A5C171D20232800615ECB /* Main.storyboard in Resources */,
 			);
@@ -295,6 +299,7 @@
 				B60A5C221D20232800615ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

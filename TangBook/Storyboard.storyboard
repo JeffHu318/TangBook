@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vU4-cb-ZFy">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--宋詞-->
+        <scene sceneID="ejB-Ei-qZc">
+            <objects>
+                <viewController id="XC2-CA-7ft" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lxz-Xl-mCy"/>
+                        <viewControllerLayoutGuide type="bottom" id="G5A-ip-SE7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z7O-ih-mfv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82K-ll-VoG">
+                                <frame key="frameInset" minX="59" minY="318" width="257" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="蘇軾"/>
+                                <connections>
+                                    <segue destination="EfG-Db-cx4" kind="show" id="1J9-m4-DcW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.92156862750000001" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="宋詞" id="UOE-VM-FEl"/>
+                    <navigationItem key="navigationItem" title="宋詞" id="3ls-pl-RfF"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MtU-ik-CmU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1959.2" y="53.523238380809602"/>
+        </scene>
+        <!--蘇軾-->
+        <scene sceneID="xJL-8X-hAA">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="EfG-Db-cx4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JPL-tH-etx"/>
+                        <viewControllerLayoutGuide type="bottom" id="rKY-4m-qtQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DwL-cV-FEx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rC7-5d-OG4">
+                                <frame key="frameInset" minX="16" minY="214" width="343" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">大江東去，浪淘盡，千古風流人物。
+故壘西邊，人道是，三國周郎赤壁。
+亂石崩雲，驚濤裂岸，捲起千堆雪。
+江山如畫，一時多少豪傑。
+
+遙想公瑾當年，小喬出嫁了，雄姿英發。
+羽扇綸巾，談笑間，強虜飛灰湮滅。
+故國神遊，多情應笑我，早生華髮。
+人間如夢，一尊還酹江月。</string>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.92156862750000001" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="蘇軾" id="2ie-0W-HHm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uCf-0P-Lvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2717.5999999999999" y="52.623688155922046"/>
+        </scene>
+        <!--宋詞-->
+        <scene sceneID="vji-mT-edA">
+            <objects>
+                <navigationController storyboardIdentifier="Sung_Tsz" automaticallyAdjustsScrollViewInsets="NO" id="vU4-cb-ZFy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="宋詞" id="XoG-3K-0T4"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fBK-gf-bT9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XC2-CA-7ft" kind="relationship" relationship="rootViewController" id="Sqi-of-yJu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J7N-Ul-MIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="53.523238380809602"/>
+        </scene>
+    </scenes>
+</document>
