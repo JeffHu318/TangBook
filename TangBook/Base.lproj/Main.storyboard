@@ -48,11 +48,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="唐詩" id="0Nr-5v-jak"/>
                     <navigationItem key="navigationItem" title="唐詩" id="Wa2-l0-Q7L"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="972" y="37.331334332833585"/>
+            <point key="canvasLocation" x="1911.2" y="37.331334332833585"/>
         </scene>
         <!--李白-->
         <scene sceneID="oHK-qe-mi0">
@@ -81,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mHe-Rg-v5K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1773.5999999999999" y="35.532233883058474"/>
+            <point key="canvasLocation" x="2712.8000000000002" y="35.532233883058474"/>
         </scene>
         <!--杜甫-->
         <scene sceneID="5Gk-1s-IPJ">
@@ -163,12 +164,30 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="l1X-tu-EUZ"/>
+                        <segue destination="hmg-Bx-u54" kind="relationship" relationship="rootViewController" id="l1X-tu-EUZ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fue-Q0-LZh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="189" y="37"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nfu-EP-h0P">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hmg-Bx-u54" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="yat-al-fwD"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="YPt-Jt-xJK">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="z1U-pR-beU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xMT-js-HbY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="37.331334332833585"/>
         </scene>
     </scenes>
 </document>
